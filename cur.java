@@ -17,7 +17,6 @@ public class cur extends JFrame implements ItemListener,ActionListener
 		setBounds(100,100,20,500);
 		setSize(1000,500);
 		setLayout(null);
-		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setResizable(true);
 		setTitle("CURRENCY CONVERTER");//title of the swing
@@ -63,6 +62,7 @@ public class cur extends JFrame implements ItemListener,ActionListener
 		b3.addActionListener(this);
 		t1.setFont(f1);
 		t3.setFont(f1);
+                setVisible(true);
 			
 	}
 	public void itemStateChanged(ItemEvent e)
